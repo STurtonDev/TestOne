@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7E4B6957EC386704AFAB40E /* MyClassTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E4B304A8494433E1DC6775 /* MyClassTwo.m */; };
 		F7E4BFC8AAA50E1E0117DF90 /* MyClassOne.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E4B25F88B18DE8FB159E9D /* MyClassOne.m */; };
 		FEE0901940B761046F88C6FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE09B4AFAF6C5DFE06FDA6E /* main.m */; };
 		FEE09022AC075314A33AF15D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE09AC3FADBE3AD95231237 /* Default.png */; };
@@ -37,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7E4B04DF114B3AEE9272BAB /* MyClassTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClassTwo.h; sourceTree = "<group>"; };
 		F7E4B25F88B18DE8FB159E9D /* MyClassOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClassOne.m; sourceTree = "<group>"; };
+		F7E4B304A8494433E1DC6775 /* MyClassTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClassTwo.m; sourceTree = "<group>"; };
 		F7E4B68F9B462B3BB0CB1284 /* MyClassOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClassOne.h; sourceTree = "<group>"; };
 		FEE0916AFFF257C3BFD439A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FEE092BA39058FD485E40D11 /* TestOneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOneTests.h; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				FEE092BA2293D90E5CAD1191 /* ViewController.xib */,
 				F7E4B68F9B462B3BB0CB1284 /* MyClassOne.h */,
 				F7E4B25F88B18DE8FB159E9D /* MyClassOne.m */,
+				F7E4B04DF114B3AEE9272BAB /* MyClassTwo.h */,
+				F7E4B304A8494433E1DC6775 /* MyClassTwo.m */,
 			);
 			path = TestOne;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 				FEE0947297772FF1DE1C505F /* AppDelegate.m in Sources */,
 				FEE09FFA838D40ED4DAD40C2 /* ViewController.m in Sources */,
 				F7E4BFC8AAA50E1E0117DF90 /* MyClassOne.m in Sources */,
+				F7E4B6957EC386704AFAB40E /* MyClassTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
