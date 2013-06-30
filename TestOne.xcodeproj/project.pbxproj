@@ -16,7 +16,6 @@
 		FEE09037AAF8079CF702E75A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEE0922708C1E3CDCA24AA83 /* InfoPlist.strings */; };
 		FEE0935E112FFC5D89DBC94D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE095175345EE18284533D0 /* Default-568h@2x.png */; };
 		FEE0947297772FF1DE1C505F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE097E1B9A681132CF63023 /* AppDelegate.m */; };
-		FEE0961ADB8181CE969A29F7 /* MyClassFive.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE09C0956028C5AC76C936F /* MyClassFive.m */; };
 		FEE09628E29B270D65C4FEF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEE09AA8274DB475A1552D15 /* InfoPlist.strings */; };
 		FEE09878029BCD16E5E1D2D8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE09FD75451EA59ED993657 /* SenTestingKit.framework */; };
 		FEE09898EDB2833C4294B099 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE098881CD6916160AD8CFB /* UIKit.framework */; };
@@ -55,14 +54,12 @@
 		FEE095175345EE18284533D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FEE097E1B9A681132CF63023 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FEE098881CD6916160AD8CFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		FEE0989C95B32DE78C2E847F /* MyClassFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClassFive.h; sourceTree = "<group>"; };
 		FEE098DBD272D24E46CD1529 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FEE09902822F73AA09D29F3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEE0995CBE1490687F52AC32 /* TestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE09A5040759A0FE170CF94 /* TestOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TestOne-Info.plist"; sourceTree = "<group>"; };
 		FEE09AC3FADBE3AD95231237 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FEE09B4AFAF6C5DFE06FDA6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FEE09C0956028C5AC76C936F /* MyClassFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClassFive.m; sourceTree = "<group>"; };
 		FEE09C35D84F1E07D4E3F3CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FEE09C8335574849C1B8DC5F /* TestOneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE09D7F053EE6977086D782 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -144,8 +141,6 @@
 				F7E4B19F39DE1D524AC420CD /* MyClassThree.m */,
 				F7E4B841A918483DB39FF162 /* MyClassFour.h */,
 				F7E4B111E55A86A8D44E4E41 /* MyClassFour.m */,
-				FEE0989C95B32DE78C2E847F /* MyClassFive.h */,
-				FEE09C0956028C5AC76C936F /* MyClassFive.m */,
 			);
 			path = TestOne;
 			sourceTree = "<group>";
@@ -309,7 +304,6 @@
 				F7E4B6957EC386704AFAB40E /* MyClassTwo.m in Sources */,
 				F7E4BC65251BE247BB2E6346 /* MyClassThree.m in Sources */,
 				F7E4BF9477291E84EEFA6726 /* MyClassFour.m in Sources */,
-				FEE0961ADB8181CE969A29F7 /* MyClassFive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
